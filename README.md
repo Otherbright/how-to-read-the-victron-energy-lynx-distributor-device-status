@@ -1,5 +1,5 @@
-# How to read the status of the Lynx Distributor device from Victron Energy
-How to read the status of the Lynx Distributor device from Victron Energy without using an official Victron device. This will allow us to do remote fuse supervision.
+# How to read the Lynx Distributor device status from Victron Energy
+How to read the Lynx Distributor device status from Victron Energy without using an official Victron device. This will allow to do remote fuse supervision.
 
 **Warning:** Here is presented simplified electrical assemblies for educational purposes, they are not recomanded. Do your own research to ensure that you do not endanger your appliances and people.
 
