@@ -29,7 +29,7 @@ For this demo the 12-48 V to 5 V transformer is connected to:
 - A Raspberry Pi Pico W as an I2C master device
 - The Lynx Distributor Board (until 4 can be chained through 3 additional RJ10 cables, but for this demo we will use only one Lynx Distributor)
 
-### I2C hardware setup
+## I2C hardware setup
 
 - Connect the Lynx I2C DATA line to the Pico W GP20 pin (pin 27)
 - Connect the Lynx I2C CLOCK line to the Pico W GP21 pin (pin 26)
@@ -40,7 +40,7 @@ For this demo the 12-48 V to 5 V transformer is connected to:
       SW-1    Off   On    Off   On
       SW-2    Off   Off   On    On
 
-### Software setup
+## Software setup
 
 - To report the Lynx Distributor status, we will use [ESPHOME]([url](https://esphome.io/)) in conjonction with the [HOME ASSISTANT]([url](https://www.home-assistant.io/)) project.
 - At the time of writing, the Raspberry Pi W can only be used via the developer version of ESPHOME.
